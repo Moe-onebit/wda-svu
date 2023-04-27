@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+      td,th {
+        width: 100px;
+        text-align: center;
+        vertical-align: middle;
+      }
+	  
+	  table {
+	  color: #333;
+	  background: white;
+	  border: 1px solid grey;
+	  font-size: 12pt;
+	  border-collapse: collapse;
+		}
+	table thead th,
+	table tfoot th {
+	color: #777;
+	background: rgba(0,0,0,.1);
+	}
+	table caption {
+	  padding:.5em;
+	}
+	table th,
+	table td {
+	padding: .5em;
+	border: 1px solid lightgrey;
+	}
+	
+	
+</style>
+</head>
+
+<body>
+<h1> Report </h1>
+<h1>Answer to the first question</h1>
+<h2>Data Preprocessing</h2>
+<h3>Missing values</h3>
+
+<p>There are a lots of records with null values in this data, also they appeared together.</p>
+
+<h3>Unreadable columns name</h3>
+
+<h1>Answer to the second question</h1>
+
+<h3>The following results are for each product:</h3>
+<ul>
+	<li>
+	<h4>Total revenue generated:</h4>
+	<table>
+	<tr>
+		<th>Classic Cars</th>
+		<th>Motorcycle</th>
+		<th>Planes</th>
+		<th>Ships</th>
+		<th>Trains</th>
+		<th>Trucks and Buses</th>
+		<th>Vintage Cars</th>
+	</tr>
+	<tr>
+		<td>-159572.67</td>
+		<td>26874.83</td>
+		<td>30849.57</td>
+		<td>4705.76</td>
+		<td>27308.57</td>
+		<td>17184.39</td>
+		<td>88671.63</td>
+	</tr>
+	</table>
+	</li>
+	<li>
+	<h4>Total usits sold:</h4>
+		<table>
+	<tr>
+		<th>Classic Cars</th>
+		<th>Motorcycle</th>
+		<th>Planes</th>
+		<th>Ships</th>
+		<th>Trains</th>
+		<th>Trucks and Buses</th>
+		<th>Vintage Cars</th>
+	</tr>
+	<tr>
+		<td>33992</td>
+		<td>11663</td>
+		<td>10727</td>
+		<td>8127</td>
+		<td>2712</td>
+		<td>10777</td>
+		<td>21069</td>
+	</tr>
+	</table>
+	</li>
+		<li>
+	<h4>Average price per unit:</h4>
+		<table>
+	<tr>
+		<th>Classic Cars</th>
+		<th>Motorcycle</th>
+		<th>Planes</th>
+		<th>Ships</th>
+		<th>Trains</th>
+		<th>Trucks and Buses</th>
+		<th>Vintage Cars</th>
+	</tr>
+	<tr>
+		<td>120.152301</td>
+		<td>97.673669</td>
+		<td>88.755011</td>
+		<td>86.047004</td>
+		<td>72.656342</td>
+		<td>103.033126</td>
+		<td>86.152451</td>
+	</tr>
+	</table>
+	</li>
+	
+		<li>
+	<h4>Total number of orders</h4>
+		<table>
+	<tr>
+		<th>Classic Cars</th>
+		<th>Motorcycle</th>
+		<th>Planes</th>
+		<th>Ships</th>
+		<th>Trains</th>
+		<th>Trucks and Buses</th>
+		<th>Vintage Cars</th>
+	</tr>
+	<tr>
+		<td>967</td>
+		<td>331</td>
+		<td>306</td>
+		<td>234</td>
+		<td>77</td>
+		<td>301</td>
+		<td>607</td>
+	</tr>
+	</table>
+	</li>
+		
+</ul>
+
+<img src="rank.png">
+
+<p style="font-size:25px">From the following graph we can see that the highest revenue came from selling the vintage cars so the company should focus on selling vintage cars.</p>
+
+<h1>Answer to the third question</h1>
+<h3>The following results are for each month:</h3>
+<ul>
+<li>
+	<h4>Total revenue generated:</h4>
+		<table>
+	<tr>
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+		<th>5</th>
+		<th>6</th>
+		<th>7</th>
+		<th>8</th>
+		<th>9</th>
+		<th>10</th>
+		<th>11</th>
+		<th>12</th>
+	</tr>
+	<tr>
+		<td>-10908.92</td>
+		<td>9545.90</td>
+		<td>9193.67</td>
+		<td>-4129.00</td>
+		<td>3031.06</td>
+		<td>-2278.12</td>
+		<td>4593.97</td>
+		<td>-5887.43</td>
+		<td>9193.27</td>
+		<td>20783.71</td>
+		<td>878.85</td>
+		<td>2005.12</td>
+	</tr>
+	</table>
+	</li>
+	
+	<li>
+	<h4>Total units sold:</h4>
+		<table>
+	<tr>
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+		<th>5</th>
+		<th>6</th>
+		<th>7</th>
+		<th>8</th>
+		<th>9</th>
+		<th>10</th>
+		<th>11</th>
+		<th>12</th>
+	</tr>
+	<tr>
+		<td>7997</td>
+		<td>7903</td>
+		<td>7585</td>
+		<td>6704</td>
+		<td>8992</td>
+		<td>4620</td>
+		<td>4899</td>
+		<td>6538</td>
+		<td>5681</td>
+		<td>10998</td>
+		<td>20857</td>
+		<td>6293</td>
+	</tr>
+	</table>
+	</li>
+	
+		<li>
+	<h4>Average price per unit:</h4>
+		<table>
+	<tr>
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+		<th>5</th>
+		<th>6</th>
+		<th>7</th>
+		<th>8</th>
+		<th>9</th>
+		<th>10</th>
+		<th>11</th>
+		<th>12</th>
+	</tr>
+	<tr>
+		<td>99.625234</td>
+		<td>101.340757</td>
+		<td>98.164799</td>
+		<td>100.388872</td>
+		<td>102.241993</td>
+		<td>99.394156</td>
+		<td>104.160441</td>
+		<td>101.743347</td>
+		<td>101.308044</td>
+		<td>100.297963</td>
+		<td>101.492688</td>
+		<td>100.536151</td>
+	</tr>
+	</table>
+	</li>
+
+</ul>
+
+<img src="rank per month.png">
+
+<p style="font-size:22px">We can see from the following graph that the highest revenue is between the 9th and 11th months
+ but if we look at the period between the second and the third months we can see that the relationship between
+ the TOTALREVENUE and TOTALUNITSSOLD is correlated, so the company should focus on selling more between the second month and the third month.</p>
+ 
+ <h1>Answer to the fourth question</h1>
+
+ <ul>
+	<li>
+	<h4>Top 5 selling cities:</h4>
+		<table>
+	<tr>
+		<th>Madrid</th>
+		<th>San Rafael</th>
+		<th>NYC</th>
+		<th>Singapore</th>
+		<th>Paris</th>
+	</tr>
+	<tr>
+		<td>258</td>
+		<td>178</td>
+		<td>138</td>
+		<td>138</td>
+		<td>70</td>
+	</tr>
+	</table>
+	</li>
+ </ul>
+ 
+ <p style="font-size:22px">The other cities should focus more on selling vintage cars between the second month and the third month.</p>
+
+
+</body>
+</html>
